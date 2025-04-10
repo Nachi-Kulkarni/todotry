@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "finai",
+    "slug": "finai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./AIbudgetIndiaMVP/assets/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "entryPoint": "./AIbudgetIndiaMVP/index.js",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./AIbudgetIndiaMVP/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.finai"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./AIbudgetIndiaMVP/assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./AIbudgetIndiaMVP/assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "AIbudgetIndiaMVP/assets/**/*"
+    ]
+  }
+}
